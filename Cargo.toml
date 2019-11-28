@@ -1,0 +1,12 @@
+[package]
+name = "rediscoredump"
+version = "0.1.0"
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+nix = "0.15.0"
+coredump = "0.1.0"
+redis-module = "0.5.0"
