@@ -50,11 +50,11 @@ jobs:
       #            rustup run stable rustc --version --verbose
       #            rustup run stable cargo --version --verbose
       #            rustup run stable cargo build
-      - run:
-          name: Test
-          command: |
-             pip install -r ./test/pytest/requirements.txt
-             python ./test/pytest/test.py
+      #- run:
+      #    name: Test
+      #    command: |
+      #       pip install -r ./test/pytest/requirements.txt
+      #       python ./test/pytest/test.py
 
       # - run:
       #     name: Package
